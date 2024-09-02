@@ -7,7 +7,7 @@ import {app} from './app.js';
 import { Router } from 'express';
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 })
 
 connectDb()
