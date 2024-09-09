@@ -57,7 +57,8 @@ const registerUser = asyncHandler(async(req,res)=>{
     }
     
     // console.log("____________________________first \n")
-    // console.log(coverImage.url);
+    console.log(coverImage.url);
+    console.log(coverImage);
     // console.log("____________________________\n")
 
     const user = await User.create({
